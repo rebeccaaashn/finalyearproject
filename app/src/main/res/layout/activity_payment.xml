@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Config.payment"
+    android:orientation="vertical"
+    android:background="@drawable/bckg">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/backPay"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:backgroundTint="#e9ffdb"
+                android:textColor="@color/black"
+                android:layout_marginLeft="15dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:text="Payment"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/sing_up_icon"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:layout_gravity="center"
+        android:src="@drawable/pay"
+        />
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical">-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Freemium plan"-->
+<!--            android:textSize="20sp"-->
+<!--            android:textColor="#667e66"-->
+<!--            android:layout_marginLeft="50dp"-->
+<!--            android:layout_marginTop="150dp"-->
+<!--            android:textStyle="bold"/>-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="50dp"-->
+<!--            android:layout_marginLeft="90dp"-->
+<!--            android:text="$3.99"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="20sp"-->
+<!--            android:textColor="#ff6b6b"/>-->
+<!--        </LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content">-->
+<!--            -->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="premium plan"-->
+<!--            android:textSize="20sp"-->
+<!--            android:textColor="#667e66"-->
+<!--            android:layout_marginLeft="50dp"-->
+<!--            android:layout_marginTop="150dp"-->
+<!--            android:textStyle="bold"/>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="225dp"-->
+<!--                android:layout_marginLeft="-90dp"-->
+<!--                android:text="$7.99"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textSize="20sp"-->
+<!--                android:textColor="#ff6b6b"/>-->
+<!--        </LinearLayout>-->
+<!--    </LinearLayout>-->
+
+    <FrameLayout
+        android:id="@+id/basicPlan"
+        android:layout_width="170dp"
+        android:layout_height="300dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:background="#fefbc3">
+
+        <ImageButton
+
+            android:layout_width="170dp"
+            android:layout_height="130dp"
+            android:src="@drawable/logo_8you"
+            android:scaleType="fitCenter"
+            android:background="#fefbc3"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/premiumplan"
+        android:layout_width="170dp"
+        android:layout_height="300dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="-300dp"
+        android:background="#fefbc3" >
+            <ImageButton
+            android:layout_width="170dp"
+            android:layout_height="130dp"
+            android:src="@drawable/logo_8you"
+                android:scaleType="fitCenter"
+                android:background="#fefbc3"/>
+
+    </FrameLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="-150dp"
+        android:text="Basic Plan"
+        android:textSize="20dp"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:textColor="#00bd53" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="0dp"
+        android:text="$3.99/month"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="0dp"
+        android:text=" * limited access to features"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="-130dp"
+        android:text="premium"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textAllCaps="true"
+        android:textColor="#00bd53"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="0dp"
+        android:text="$7.99/month"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="0dp"
+        android:text=" * access to all features"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="50dp">
+
+<!--        <EditText-->
+<!--            android:id="@+id/edtAmount"-->
+<!--            android:hint="Enter amount"-->
+<!--            android:autofillHints="Enter amount"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:spinnerMode="dropdown"-->
+
+<!--           />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btnPayNow"-->
+<!--            android:text="Pay Now"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:backgroundTint="#e9ffdb" />-->
+
+    </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

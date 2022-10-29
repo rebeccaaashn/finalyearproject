@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fitsensor"
+    android:background="@drawable/bckg">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/backS"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:backgroundTint="#e9ffdb"
+                android:textColor="@color/black"
+                android:layout_marginLeft="15dp"/>
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fit sensor "
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Start your time to count your duration and see how many steps you've achieved"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:textAlignment="center"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="60sp"
+                android:id="@+id/timerText"
+                android:text="00 : 00 : 00"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                />
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_Steps"
+                android:layout_centerInParent="true"
+                android:text="Step count: 0"
+                android:textColor="@android:color/black"
+                android:textSize="40dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="45dp"
+                >
+                <Button
+                    android:id="@+id/startStopBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+
+                    android:layout_weight="1"
+                    android:backgroundTint="#fbfac5"
+                    android:onClick="startStopTapped"
+                    android:text="START"
+                    android:textColor="#4CAF50"
+                    android:textSize="30sp"/>
+                <Button
+                    android:id="@+id/resetBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#fbfac5"
+                    android:onClick="ResetTapped"
+                    android:text="RESET"
+                    android:textColor="#FF2222"
+                    android:textSize="30sp"/>
+
+            </LinearLayout>
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/saveFit"
+                android:text="Save"
+                android:layout_gravity="center"
+                android:backgroundTint="#fbfac5"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

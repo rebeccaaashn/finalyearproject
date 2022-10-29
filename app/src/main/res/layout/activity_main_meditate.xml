@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mainMeditate"
+    android:background="@drawable/bckg"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="100dp"
+        android:paddingBottom="200dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="songs"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="-100dp"
+        android:layout_marginTop="5dp"/>
+
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical">-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Meditate "-->
+<!--            android:textSize="30dp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:layout_marginLeft="30dp"-->
+<!--            android:layout_marginTop="5dp"/>-->
+
+<!--        &lt;!&ndash;        <Button&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:id="@+id/testBtn"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:text="back"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:layout_marginLeft="30dp"/>&ndash;&gt;-->
+
+<!--        <ScrollView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical">-->
+<!--                &lt;!&ndash;row 1&ndash;&gt;-->
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="200dp"-->
+<!--                    android:orientation="horizontal">-->
+
+<!--                    <FrameLayout-->
+
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="150dp"-->
+<!--                        android:background="#fefbc3"-->
+<!--                        android:layout_marginHorizontal="10dp"-->
+<!--                        android:layout_weight="1"-->
+<!--                        android:layout_gravity="center">-->
+<!--                        <ImageView-->
+<!--                            android:id="@+id/song1"-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="150dp"-->
+<!--                            android:src="@drawable/diet"-->
+<!--                            android:scaleType="fitCenter"/>-->
+<!--                    </FrameLayout>-->
+<!--                    <pl.droidsonroids.gif.GifImageView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="200dp"-->
+<!--                        android:layout_centerInParent="true"-->
+<!--                        android:src="@drawable/jumpingjacks"-->
+<!--                        android:layout_weight="1"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:id="@+id/jumpingjacks"-->
+<!--                        android:layout_marginHorizontal="10dp"-->
+<!--                        />-->
+<!--                </LinearLayout>-->
+
+<!--                &lt;!&ndash;row 2&ndash;&gt;-->
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="200dp"-->
+<!--                    android:orientation="horizontal">-->
+<!--                    &lt;!&ndash;squat&ndash;&gt;-->
+<!--                    <pl.droidsonroids.gif.GifImageView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="200dp"-->
+<!--                        android:layout_centerInParent="true"-->
+<!--                        android:src="@drawable/squat"-->
+<!--                        android:layout_weight="1"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:id="@+id/squat"-->
+<!--                        android:layout_marginHorizontal="10dp"-->
+<!--                        />-->
+<!--                    &lt;!&ndash;lunges&ndash;&gt;-->
+<!--                    <pl.droidsonroids.gif.GifImageView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="200dp"-->
+<!--                        android:layout_centerInParent="true"-->
+<!--                        android:src="@drawable/lunges"-->
+<!--                        android:layout_weight="1"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:id="@+id/lunges"-->
+<!--                        android:layout_marginHorizontal="10dp"-->
+<!--                        />-->
+<!--                </LinearLayout>-->
+<!--            </LinearLayout>-->
+
+<!--        </ScrollView>-->
+<!--    </LinearLayout>-->
+
+
+    <ViewFlipper
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewFlipper"
+        android:paddingBottom="50dp">
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/song">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:id="@+id/song1"
+            android:src="@drawable/song1" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:id="@+id/song2"
+           android:src="@drawable/image"  />
+
+    </FrameLayout>
+
+    </ViewFlipper>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:backgroundTint="#099c02"
+        android:textStyle="bold"
+        android:paddingRight="30dp"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:id="@+id/previous"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Prev"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignTop="@+id/next"
+        android:textStyle="bold"
+        android:backgroundTint="#099c02"
+        android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:itemBackground="@color/teal_700"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:menu="@menu/menu_navigation" />
+
+</LinearLayout>

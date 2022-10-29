@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Meditation"
+    android:background="@drawable/bckg"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <Button
+        android:id="@+id/backSong"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:backgroundTint="#e9ffdb"
+        android:textColor="@color/black"
+        android:layout_marginLeft="-140dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Song: River flows"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="-70dp"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Take a deep breath and listen to this song  "
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        />
+
+
+
+<!--    <Button-->
+<!--        android:id="@+id/testBtn"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="60dp"-->
+<!--        android:text="back"-->
+<!--        android:layout_marginLeft="30dp"/>-->
+<!--    <ImageView-->
+<!--        android:layout_width="250dp"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:src="@drawable/music"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="120dp" />-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:padding="12dp"-->
+<!--        android:layout_marginTop="400dp">-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/player"-->
+<!--            android:text="00 : 00"-->
+<!--            android:textStyle="bold"/>-->
+<!--        <SeekBar-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:id="@+id/seek"/>-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/duration"-->
+<!--            android:text="00 : 00"-->
+<!--            android:textStyle="bold"/>-->
+
+
+<!--    </LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_marginTop="450dp"-->
+<!--        android:layout_centerHorizontal="true">-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="60dp"-->
+<!--            android:layout_height="60dp"-->
+<!--            android:id="@+id/bt_rew"-->
+<!--            android:src="@drawable/fast"/>-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="60dp"-->
+<!--            android:layout_height="60dp"-->
+<!--            android:id="@+id/bt_play"-->
+<!--            android:src="@drawable/play"/>-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="60dp"-->
+<!--            android:layout_height="60dp"-->
+<!--            android:id="@+id/bt_pause"-->
+<!--            android:visibility="gone"-->
+<!--            android:src="@drawable/pause"/>-->
+<!--        <ImageView-->
+<!--            android:layout_width="60dp"-->
+<!--            android:layout_height="60dp"-->
+<!--            android:id="@+id/bt_ff"-->
+<!--            android:src="@drawable/forward"/>-->
+
+
+<!--    </LinearLayout>-->
+
+<!--  //one-->
+<!--    <FrameLayout-->
+<!--        android:layout_width="350dp"-->
+<!--        android:layout_height="190dp"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:background="#72BFB9" />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="60dp"-->
+<!--        android:layout_marginTop="70dp"-->
+<!--        android:text="30 Days"-->
+<!--        android:textSize="30dp"-->
+<!--        android:textStyle="bold" />-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="60dp"-->
+<!--        android:layout_marginTop="110dp"-->
+<!--        android:text="meditation Plan"-->
+<!--        android:textSize="30dp"-->
+<!--        android:textStyle="bold" />-->
+
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="60dp"-->
+<!--        android:layout_marginTop="150dp"-->
+<!--        android:text="Reduce your stress level"-->
+<!--        android:textSize="20dp"-->
+<!--        android:textStyle="bold" />-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="60dp"-->
+<!--        android:layout_marginTop="180dp"-->
+<!--        android:text="For you"-->
+<!--        android:textSize="20dp"-->
+<!--        android:textStyle="bold" />-->
+
+<!--    <FrameLayout-->
+<!--        android:id="@+id/Day_1"-->
+<!--        android:layout_width="170dp"-->
+<!--        android:layout_height="160dp"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        android:layout_marginTop="250dp"-->
+<!--        android:background="#FBF7CD" />-->
+<!--    <FrameLayout-->
+<!--        android:id="@+id/Day_2"-->
+<!--        android:layout_width="170dp"-->
+<!--        android:layout_height="160dp"-->
+<!--        android:layout_marginLeft="210dp"-->
+<!--        android:layout_marginTop="250dp"-->
+<!--        android:background="#FBF7CD" />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="80dp"-->
+<!--        android:layout_marginTop="310dp"-->
+<!--        android:text="Day 1"-->
+<!--        android:textSize="30dp"-->
+<!--        android:textStyle="bold" />-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="260dp"-->
+<!--        android:layout_marginTop="310dp"-->
+<!--        android:text="Day 2"-->
+<!--        android:textSize="30dp"-->
+<!--        android:textStyle="bold" />-->
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/yoga"
+        android:layout_marginTop="60dp"/>
+
+    <SeekBar
+        android:id="@+id/positionBar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/elapsedTimeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0:11"
+            android:layout_marginLeft="40dp"/>
+        <TextView
+            android:id="@+id/remainingTimeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-1:49"
+            android:layout_marginLeft="240dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/playBtn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/play"
+        android:layout_marginTop="40dp"
+        android:onClick="playBtnClick"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/sound"/>
+        <SeekBar
+            android:id="@+id/volumeBar"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:progress="50"
+            android:max="100"/>
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:src="@drawable/sound2"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

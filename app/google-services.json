@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "943470007416",
+    "firebase_url": "https://you-faf60-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "you-faf60",
+    "storage_bucket": "you-faf60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943470007416:android:cb1c8714b4064ec29f098d",
+        "android_client_info": {
+          "package_name": "com.example.a8you"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "943470007416-ql03oo7nprjhuplqi0u96gt2lih5m22j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAPOrowEDREoOisZTRvK_F_OEOu5ETwtU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "943470007416-ql03oo7nprjhuplqi0u96gt2lih5m22j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

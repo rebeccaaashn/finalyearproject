@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <item name="inSubject" type="id" />-->
+<!--    <item name="inBody" type="id">1</item>-->
+<!--    <item name="txtEmailAddress" type="id">1</item>-->
+<!--    <item name="btnSendEmail" type="id">1</item>-->
+<!--    <item name="btnScanBarcode" type="id">1</item>-->
+    <item name="textview" type="id" />
+</resources>
