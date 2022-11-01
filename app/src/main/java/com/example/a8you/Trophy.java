@@ -104,6 +104,8 @@ public class Trophy extends AppCompatActivity {
                         overridePendingTransition(0,0);
                         return true;
                     case R.id.home:
+                        startActivity(new Intent(getApplicationContext(),Home.class));
+                        overridePendingTransition(0,0);
                         return true;
                     case R.id.about:
                         startActivity(new Intent(getApplicationContext(),Profile.class));
